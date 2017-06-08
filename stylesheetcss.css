@@ -3,7 +3,12 @@ body
     min-width: 600px;
     font-family: sans-serif;
 }
-h1, h2, h3, h4
+.container1 > .container > img
+{
+    margin: 0 auto;
+    display: block;
+}
+h2, h3, h4
 {
     margin: 0 auto;
     display: block;
@@ -103,18 +108,6 @@ h1, h2, h3, h4
     text-align: center;
 }
 
-
-.form-group > .button
-{
-    color: rgba(43, 98, 143, 1);
-}
-
-.form-group > .button > p
-{
-    padding: 5px;
-
-}
-
 footer
 {
     background: rgba(13, 23, 31, 1)
@@ -124,16 +117,12 @@ footer > .container > p
     color: white;
     font-size: 11px;
 }
-form
-{
-    background: blue;
-}
 .container > .row > div > form > div > input
 {
     border-bottom: 2px solid rgba(202, 215, 227, 1);
     border-radius: 0px;
 }
-
+/* I planned to add media queries to change text sizes for each device respectively. */
 @media only screen and (min-width : 768px) 
 {
 }
